@@ -17,7 +17,7 @@ DependentScripts: FeatureCounts and barcode demuliplexing scripts.
 
 ## Publication
 pending:  
-*lt Lamanna, J.,*lt Scott, E.Y., *lt Edwards, H., Chamberlain, M.D., Dryden, M.D.M., Peng, J., Mair, B., Lee, A., Sklavounos, A.A., Abbas, F., Moffat, J. & A.R. Wheeler. "Digital Microfluidic Isolation of Single Cells for - Omics" 2020.  
+*amp Lamanna, J.,*lt Scott, E.Y., *lt Edwards, H., Chamberlain, M.D., Dryden, M.D.M., Peng, J., Mair, B., Lee, A., Sklavounos, A.A., Abbas, F., Moffat, J. & A.R. Wheeler. "Digital Microfluidic Isolation of Single Cells for - Omics" 2020.  
   *lt Co-first authors
 
 ### Authors of scripts
