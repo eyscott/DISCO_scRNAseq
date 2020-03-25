@@ -16,7 +16,7 @@ RFigureScripts: TPM normalization, figure generation, DGE with EdgeR, UMAP imple
 DependentScripts: FeatureCounts and barcode demuliplexing scripts.
 
 ## Publication
-pending:  
+In Progress:  
 Lamanna, J.* , Scott, E.Y. * , Edwards, H.* , Chamberlain, M.D., Dryden, M.D.M., Peng, J., Mair, B., Lee, A., Sklavounos, A.A., Abbas, F., Moffat, J. & A.R. Wheeler. "Digital Microfluidic Isolation of Single Cells for - Omics". 2020.  
  ** Co-first authors
 
