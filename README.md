@@ -9,14 +9,17 @@ The provided scripts go through mapping, parsing fasta headers (barcodes and UMI
 2. Align with Star Aligner 
 3. Collapse redundant UMIs 
 4. Parse and separate unique cell barcodes 
-5. Gather gene count data (FeatureCounts) 
+5. Gather gene count data (FeatureCounts)
+
 RFigureScripts: TPM normalization, figure generation, DGE with EdgeR, UMAP implementation 
+
 DependentScripts: FeatureCounts and barcode demuliplexing scripts.
 
 ## Publication
-pending
+pending:  
+*Lamanna, J.*,*Scott, E.Y.*, *Edwards, H.*, Chamberlain, M.D., Dryden, M.D.M., Peng, J., Mair, B., Lee, A., Sklavounos, A.A., Abbas, F., Moffat, J. & A.R. Wheeler. "Digital Microfluidic Isolation of Single Cells for - Omics" 2020. 
+  *Lamanna, J.,Scott, E.Y., Edwards, H. are Co-first authors*
 
 ### Authors of scripts
-Erica Y. Scott: Scripts 1-5 and Figure scripts 1-7 
-
+Erica Y. Scott: Scripts 1-5 and Figure scripts 1-7  
 Harrison Edwards: python barcode parser scripts within DependentScripts/ 
