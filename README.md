@@ -1,7 +1,7 @@
 # DISCO: scRNAseq ![alt text](https://github.com/eyscott/DISCO_scRNAseq/blob/master/Images/WheelerLabLogo.png "Wheeler Lab")
-DISCO-Digital Microfluidic Isolation of Single Cells for - Omics
+DISCO-Digital Microfluidic Isolation of Single Cells for - Omics.  
 The laser lysis capture method implemented in DISCO offers spatially and temporally resolved capture of single cells, while Digital Microfluidics (DMF) is capable of retrieving this lysate and permitting flexible downstream analyses, such as scRNA-seq.
-Each cell has a barcode incorporated into Read 1, making the cell's transcriptome accountable and traceable through the pipeline. This barcode includes a unique cell barcode (12bp) and a UMI (8bp), the first part of our bioinformatic pipeline deals with parsing these.
+Each cell has a barcode incorporated into Read 1, making the cell's transcriptome accountable and traceable throughout the pipeline. This barcode includes a unique cell barcode (12bp) and a UMI (8bp). The first part of our bioinformatic pipeline deals with parsing these.
 
 ## General Worlflow
 The provided scripts go through mapping, parsing fasta headers (barcodes and UMIs), generating count data, making figures and performing differential gene expression (DGE):
