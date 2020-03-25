@@ -4,18 +4,18 @@ The laser lysis capture method implemented in DISCO offers spatially and tempora
 Each cell has a barcode incorporated into Read 1, making the cell's transcriptome accountable and traceable through the pipeline. This barcode includes a unique cell barcode (12bp) and a UMI (8bp), the first part of our bioinformatic pipeline deals with parsing these.
 
 ## General Worlflow
-The provided scripts go through mapping, parsing fasta headers (barcodes and UMIs), generating count data, making figures and performing differential gene expression (DGE):
-1. 
-2.
-3.
-4.
-5.
-FigureScripts: 
-DependentScripts: 
+The provided scripts go through mapping, parsing fasta headers (barcodes and UMIs), generating count data, making figures and performing differential gene expression (DGE): \n
+1. Append Read1 barcode information to Read2 fasta header \n
+2. Align with Star Aligner \n
+3. Collapse redundant UMIs \n
+4. Parse and separate unique cell barcodes \n
+5. Gather gene count data (FeatureCounts) \n
+RFigureScripts: TPM normalization, figure generation, DGE with EdgeR, UMAP implementation \n
+DependentScripts: FeatureCounts and barcode demuliplexing scripts.
 
 ## Publication
 pending
 
 ### Authors of scripts
-Erica Y. Scott: Scripts 1-5 and Figure scripts 1-6 
+Erica Y. Scott: Scripts 1-5 and Figure scripts 1-7 \n
 Harrison Edwards: python barcode parser scripts within DependentScripts/ 
