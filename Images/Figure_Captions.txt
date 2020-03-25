@@ -1,0 +1,10 @@
+Figure 4. Single cell transcriptomic analysis using DISCO. B16 cell or U87 monocultures or U87/B16 co-cultures were loaded onto DMF devices, where live cells were targeted (1 cell per droplet), lysed, and analyzed according to the transcriptome sequencing pipeline (Fig. S12).  
+For comparison,bulk samples of monocultures or co-cultures (~1,000 cells) were also evaluated (foregoing the pipeline, analyzed directly by sequencing).  
+(A)Pie chart showing consolidated gene expression from n=8 representative single B16 cells binned into the type of RNA the expression originated from.  
+(B) Plot of the protein-coding RNA (blue), lncRNA(orange), miRNA(purple) and processed pseudogenes(gray) as a function of chromosome for the dataset from (A).  
+(C)Plot of the number of genes detected per cell as a function of aligned reads for the dataset from(A),compared to two bulk samples (labelled with asterisks). Each marker is a pie chart broken into thecategories from (B).  
+(D&E)Fluorescence microscopy images of live cells on DISCO devices collected before(top) and after(bottom) laser lysis from(D) a B16 cell monoculture or (E) a co-culture of B16 (red) and U87 (green) cells. White arrows indicate the position of the particular B16 cell selected for lysis.
+(F) Plot of UMAP reduction to two dimensions (Dim1 and Dim2) of transcriptomes generated from (i) single B16 cells from monoculture (pink, n=8) or co-culture (med. red, n=4), (ii) single U87 cells from monoculture (med. green, n=4) or co-culture (lt. green,
+n=4), and (iii) bulk cells from B16 monoculture (dark red, n=2), co-culture (yellow, n=2), or U87 monoculture (dark green, n=1).
+(G) Heat map of gene expression level in counts per million (CPM),with purple-low, yellow-high) of 5300 differentially expressed genes (determined by the quasi-likelihood F test, EdgeR) for single B16 cells from monoculture (left, n=8) and from co-culture
+(right, n=4), corresponding gene list and expression values can be found in Supplementary Table 2. The white trace labeled "density" in the legend represents the distribution of the different normalized expression levels in the dataset.
